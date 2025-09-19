@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Support Mental Health</title>
+
+  <!-- flaticon -->
+  <link rel="icon" href="./assets/brainFlav.png">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+  <!-- Header -->
+  <header>
+
+    <!-- Top Banner -->
+    <div class="top-banner" id="banner">
+      <h1>Safety Starts with Mental Health</h1>
+      <img id="top-img"
+        src="https://npr.brightspotcdn.com/dims4/default/941cea7/2147483647/strip/true/crop/1024x719+0+0/resize/1760x1236!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkstx%2Ffiles%2F201808%2FMentalHealth_Flickr.jpg">
+    </div>
+
+    <!-- Navigaton in sticky header -->
+    <div class="nav-container sticky" id="nav-container">
+      <!-- <div id="nav-container"> -->
+      <p>Suicide Prevention Resources</p>
+      <nav id="nav-dropdown">
+        <a href="#stats-container-id">Statistics</a>
+        <a href="#quiz-question-container">Questions</a>
+        <a href="#signature-form">Help a friend</a>
+      </nav>
+      <button id="theme-button">Theme Toggle</button>
+      <button id="motion-button">Reduce Motion</button>
+  </header>
+
+
+  <!-- START OF MAIN CONTENT -->
+  <div class="main-content" id="main-content">
+
+    <!-- Disclamer -->
+    <div class="disclamer emphizise" id="disclamer">
+      <p>If you or someone you know is in a crisis, please don't hesitate to reach either of following resources:</p>
+      </p><u>988</u> or <u>800-273-8255</u></p>
+    </div>
+
+    <!-- Introduction -->
+    <div class="introducton">
+      <div id="intro-left">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pLdGC6uxf6A?si=XLIC8Pn84hiDVYQH"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <div id="intro-text">
+        <h2>Mental Health in Youth Minority Groups</h2>
+        <blockquote class="emphizise">Since 2017, suicide has been the second leading cause of death in those 10-19
+          years old. – <a
+            href="https://www.aacap.org/AACAP/Policy_Statements/2022/AACAP_Policy_Statement_Increased_Suicide_Among_Black_Youth_US.aspx"
+            target="_blank">AACAP</a></blockquote>
+        <p>Adolecence and young adults are some of the most aflicted with mental health issues. As these are the people
+          of the future, it's important to help them seek guidance towards a healthy way of living. Young people part of
+          marignalised communites, like the LGBTQ+ and racial identies, are even more at risk having mental health
+          issues. If you know someone might need help, do not hesitate to reach out. Below are differnent statisitics
+          for BIPOC and LGBTQ+ youth and ways to reach out.</p>
+      </div>
+    </div>
+
+    <!-- All of statisitcs -->
+    <div class="main-stat-container revealable" id="stats-container-id">
+      <h2>Statistics on Mental Health in Youth Minority Groups</h2>
+      <div class="stats-big" id="stats-big">
+        <p>Black transgender and nonbinary young people report disproportionate rates of suicide risk—<br><span
+            class="emphizise">with 58% seriously considering suicide and 1 in 4 (25%) attempting suicide in the past
+            year.</span></p>
+        <!-- I'm biased as hell btw. only reason this stat is highlighted -->
+        <blockquote>– <a
+            href="https://www.thetrevorproject.org/resources/article/facts-about-lgbtq-youth-suicide/#:~:text=In%20particular%2C%20Black%20transgender%20and%20nonbinary%20young%20people%20report%20disproportionate%20rates%20of%20suicide%20risk%20%E2%80%94%20with%2058%25%20seriously%20considering%20suicide%20and%201%20in%204%20(25%25)%20attempting%20suicide%20in%20the%20past%20year.%C2%A0"
+            target="_blank">Trevor Project</a></blockquote>
+      </div>
+      <button type="button" class="dropdown-button-styling breakdown" id="stats-drop-button">See more</button>
+      <div class="stat-container" id="stats-breakdown">
+        <ul>
+          <li>LGBTQ+ youth are 4x more likely to attempt suicide than their peers.</li>
+          <li>The Trevor Project's 2023 survey found that 41% of LGBTQ+ youth have seriously considered suicide, about
+            half were trans and nonbinary.</li>
+          <li>The Trevor Poject's analysis of CDC data found:</li>
+          <ul>
+            <li>48% of Bi people considered while 27% attempted.</li>
+            <li>37% of Lesbian/Gay people considered while 19% attempted.</li>
+            <li>14% of Straight people considered while 6% attempted.</li>
+          </ul>
+          <li>2020 peer-reviewed study found that trans and non-binary youth were 2 to 2.5 times more likely to
+            experience
+            serious contemplation of suicide compared to cisgender LGBQ+ peers.</li>
+          <li>A 2023 survey found that almost all LGBTQ+ youth that had BIPOC identities reported higher suicide attempt
+            rates than their peers.</li>
+          <ul>
+            <li>Indigenous youth who are two spirit/LGBTQ+ consistently report the hiest suicide risk rate.</li>
+          </ul>
+          <li>Some Risk factors for suicide in LGBTQ+ youth:</li>
+          <ul>
+            <li>Minority Stress: where anti-LGBTQ+ messages become internalized.</li>
+            <ul>
+              <li>Examples include experiencing the following due to identity: Housing instabilities, physical harm,
+                identity change attempts by parents via conversation camps and the like.</li>
+            </ul>
+          </ul>
+          <li>Some preventive factors for LGBTQ+ youth suicide:</li>
+          <ul>
+            <li> Identity-affirming spaces like homes and schools consistently lower suicide attempt rates for LGBTQ+
+              youth.</li>
+            <li>Trusted adults and supportive peers have led to reports of higher self-esteem in LGBTQ+ youth.</li>
+          </ul>
+
+          <li>An article on Pew Trust gives 3 strategies for combating the fact that from 2007 to 2020 the suicide rate
+            for black youth has risen 144%.</li>
+          <li>The 3 stratigies:</li>
+          <ul>
+            <li>Increase healthcare providers' understanding of the cultures they provide care to.</li>
+            <li>Research risk factors focusing on different minority identities.</li>
+            <ul>
+              <li>Research shows that black youth show symptoms of depression (a suicide risk factor) differently than
+                white peers.</li>
+              <ul>
+                <li>Aggression and irritability present more for depression than sadness and a lack of interest in
+                  things.
+                </li>
+                <li>All relates to distrust of healthcare professionals due to centuries of exploration and abuse.</li>
+              </ul>
+              <li>Diagnostic criteria being created primarily around white people leads to misclassification and
+                inappropriate medical responses, increasing someone's suicide risk.</li>
+            </ul>
+            <li>Black youth are often misdiagnosed when they experience suicidal tendencies.</li>
+            <ul>
+              <li>Still, less than 50% of youth go on outpatient after being in the ER for self-harm, and it's less for
+                Black youth.</li>
+            </ul>
+          </ul>
+          <li>Due to a 2019 report to Congress, funding for the study of suicide risk and preventive factors, like
+            stigma
+            and connectedness of communities, has increased.</li>
+        </ul>
+        <p>Points on the statistics on black youth and 3 strategies to counter suicide rates rising in the black youth
+          populous can apply to other races too. One of the reasons Two-Spirit Indigenous youth might be facing the
+          highest suicide risk rates is because of the intersections of minority stress they face and the lack of
+          specific research into their situation.</p>
+      </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz-container revealable">
+      <div class="quiz-question-container" id="quiz-question-container">
+        <div id="quiz-img">
+          <h2>Test your Knowlege on the Statistics!</h2>
+          <!-- I want an image to change per question -->
+          <img alt="Image listing the 5 Action steps for suicide prevention" src="./assets/ActionSteps.jpg">
+        </div>
+        <p>
+          The image above is working as the wireframe image(s) for this section. The plan was to make this into a short javascript quiz. Though... Yeah...</p>
+        <p>This would've stayed blank until I was able to work out the javascript for the quiz, but I unfortunately did
+          not have enough time to add the quiz to this project during my time with CodePath. Hopefully in the near
+          future, I'll have an afternoon or so to code this bad boy up.
+        </p>
+        <p>For now, I humbly request that you take this <a href="https://forms.gle/zEX97NcW3n7MfieQ8"
+            target="_blank">Google Forms survey</a> in the meantime, if you desperately want to take a quiz. I was using
+          it as my "wireframe" for the JavaScript I will eventually make, but... We'll say, my time was stolen.</p>
+      </div>
+
+      <div class="quiz-choices" id="quiz-choices">
+        <button type="button" class="quiz-button-styling" id="quiz-option-1">A</button>
+        <button type="button" class="quiz-button-styling" id="quiz-option-2">B</button>
+        <button type="button" class="quiz-button-styling" id="quiz-option-3">C</button>
+        <button type="button" class="quiz-button-styling" id="quiz-option-4">D</button>
+      </div>
+
+    </div>
+
+    <!-- Form Collecter Here :) -->
+    <div class="signature-form-container" id="signature-form-container">
+      <div class="sig-text">
+        <h2>Commit to helping a loved one!</h2>
+        <p>Mental Illness is sometimes called and an invisible affliction, but even though you can't see it, it doesn't
+          mean you can't help. A supportive community is a key factor in preventing suicide, and you have the power to
+          be a pillar of support. Reaching out shows the sufferer that they're not alone and that they don't have to be
+          going through it alone. Even if you don't personally know anyone who's presenting any risk factors, it doesn't
+          hurt to reach out to someone and let them know you're there for them. Whether it be a younger cousin, a niece
+          or nephew, or a peer, you have the power to make a difference in their life by just reassuring them.</p>
+        <p>Sign the petition below to let the world know you're
+          comitted to caring about the the mental heath our youth.</p>
+        <span class="error" id="error-message">
+        </span>
+        <div class="form-holder" id="form-holder">
+          <form id="signature-form">
+            <!-- First Name -->
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="first name" placeholder="John" size="15">
+
+            <!-- Last Name -->
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="last name" placeholder="Doe" size="15">
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="johnD@yahoo.co.uk">
+
+            <!-- Submit-->
+            <button type="submit">Sign Now</button>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="signature-toclass" id="signatures">
+        <h3>Submitted signatures:</h3>
+        <p>Total signatures: <span id="counter">0</span></p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content" id="modalContainer">
+        <div class="close-mover"><span class="close" id="close">x</span></div>
+        <p>Thank you <span id="modalName"></span> for making the commitment to help a loved one! <br>They will
+          appreciate it!</p>
+        <div class="modal-deco motal-deco-move" id="modalDeco">
+          <img src="./assets/smilly.png" alt="yellow smiley face" id="modalDecoImg" class="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="foot">
+    <p>Thank you for stopping by!</p>
+    <a href="https://www.aacap.org/AACAP/Policy_Statements/2022/AACAP_Policy_Statement_Increased_Suicide_Among_Black_Youth_US.aspx" target="_blank">AACAP</a><a
+        href="https://www.thetrevorproject.org/"
+        target="_blank">Trevor Project</a><a
+      href="https://988lifeline.org/how-we-can-all-prevent-suicide/"
+      target="_blank">988 Lifeline</a>
+  </footer>
+
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>
